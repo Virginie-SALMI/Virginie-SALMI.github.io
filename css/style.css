@@ -1,0 +1,49 @@
+:root{
+    background-color: black;
+    color: antiquewhite;
+    font-size: x-large;
+}
+.music{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.floating{
+    animation: floating 5s ease-in-out infinite;
+    width: 50%;
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(ran);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateX(85px);
+    }
+    50%{
+        transform: translateX(250px);
+    }
+}
+
+img{
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    margin-left: 7rem;
+    opacity: 40%;
+    top: 0;
+}
+
+h1{
+    font-family:'Akronim','Asap', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    margin: 3rem;
+}

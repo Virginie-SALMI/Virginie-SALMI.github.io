@@ -10,7 +10,7 @@
 }
 
 .floating{
-    animation: floating 5s ease-in-out infinite;
+    animation: floating 1s ease-in-out infinite;
     width: 50%;
 }
 

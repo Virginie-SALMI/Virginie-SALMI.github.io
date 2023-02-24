@@ -10,8 +10,9 @@
 }
 
 .floating{
-    animation: floating 1s ease-in-out infinite;
+    animation: floating 20s ease-in-out infinite;
     width: 50%;
+    padding: 1rem;
 }
 
 @keyframes floating{
